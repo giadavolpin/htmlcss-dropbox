@@ -55,3 +55,16 @@ nav{
 li{
     list-style: none;  
 }
+/*main*/
+
+.titolo{
+    background-color: var(--azzurro)
+    height: 735px;
+    padding:100px;
+
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 70px;
+}
