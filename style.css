@@ -8,22 +8,55 @@
     --azzurro: rgb(180, 208, 231);
     --blu: rgb(0, 97, 255);
     --white: rgb(255, 255, 255);
-
+    --verde: rgb(162, 211, 155);
+    --florida: rgb(0, 147, 206);
+    --red: rgb(255, 28, 28);
+    --viola: rgb(97, 8, 43); 
+    --giallo:rgb(255, 216, 48);
+    --lonely:rgb(13, 36, 129);
+    --bordo: rgb(213, 0, 31);    
 }
 /*header*/
-.menu{
-
+.debag{
+    border: 1px solid black;
 }
-.nav{
+.ul1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;     
+}
+.ul2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;    
+}
+.logo{
+    padding: 15px;
+    vertical-align: middle;
+}
+nav{
     width: 100%;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
-
+    z-index: 1000; 
+    vertical-align: middle;
 }
 .btn{
     background-color: var(--blu);
     color: var(--white);
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+
+}
+.container-small{
+    max-width: 1000px;
+}
+li{
+    list-style: none;  
 }
