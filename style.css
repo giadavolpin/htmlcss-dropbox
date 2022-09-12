@@ -20,17 +20,9 @@
 .debag{
     border: 1px solid black;
 }
-.ul1{
+.flexrow{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;   
-    vertical-align: middle;  
-}
-.ul2{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;   
-    vertical-align: middle; 
 }
 .logo{
     padding: 15px;
