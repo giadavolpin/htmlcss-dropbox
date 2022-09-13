@@ -21,9 +21,25 @@
 .debag{
     border: 1px solid black;
 }
+.flex{
+    display: flex;
+}
 .flexrow{
     display: flex;
     flex-direction: row;
+    margin: 5px;
+}
+.flexcenter{
+    display: flex; 
+    justify-content: center;
+}
+.flexend{
+    display: flex;
+    justify-content: flex-end;
+}
+.flexstart{
+    display: flex;
+    justify-content: flex-start;
 }
 .logo{
     padding: 15px;
@@ -41,17 +57,18 @@ nav{
     justify-content: space-between;
     background-color: var(--white);
 }
-.btn{
+.btnblu{
     background-color: var(--blu);
     color: var(--white);
     padding: 15px;
     display: block;
     text-decoration: none;
+    width: 250px;
+    text-align: center;
 }
 .container{
     max-width: 1200px;
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
 }
 .container-small{
     max-width: 1000px;
@@ -63,17 +80,18 @@ li{
 
 .hero{
     background-color: var(--azzurro);
-    height: 735px;
-    margin-top: 100px;
+    height: 700px;
+    margin-top: 40px;
     position: relative;
 }
 h1{
     text-align: center;
-    padding: 15px;
+    padding: 60px;
+    margin-bottom: 10px;
     font-size: 70px;
 }
 h2{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 120px;
 }
 .jumbo{
@@ -81,4 +99,21 @@ h2{
     width: 790px;
     position: absolute;
     margin: 20px;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+.dist{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.col{
+
+}
+#icona{
+    width: 150px;
+    height: 150px;
 }
