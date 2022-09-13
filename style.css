@@ -105,6 +105,10 @@ h2{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
 .jumbo{
     height: 455px;
     width: 790px;
@@ -151,4 +155,7 @@ h2{
 span{
     text-decoration: underline;
     color: var(--blu);
+}
+.abbonamenti{
+    
 }
