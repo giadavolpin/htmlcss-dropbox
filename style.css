@@ -129,9 +129,20 @@ h2{
 .col{
     width: 200px;
     height: 500px;
-    border: 1px solid black;
+    border: 1px solid rgb(231, 231, 232);
     display: flex;
+    margin: 20px;
 }
 .fatt{
     margin-left: 40px;
+}
+.rientro{
+    padding-left: 255px;
+}
+.intestazionecol{
+    /* non mi da il bordo grigio */
+    border-bottom: 1px solid rgb(231, 231, 232);
+}
+.grigio{
+    color: rgb(178, 155, 159);
 }
