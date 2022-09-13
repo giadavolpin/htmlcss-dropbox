@@ -129,9 +129,9 @@ h2{
 .col{
     width: 200px;
     height: 500px;
-    border: 1px solid rgb(231, 231, 232);
-    display: flex;
+    border: 1px solid rgb(231, 231, 232); 
     margin: 20px;
+    
 }
 .fatt{
     margin-left: 40px;
@@ -140,9 +140,15 @@ h2{
     padding-left: 255px;
 }
 .intestazionecol{
-    /* non mi da il bordo grigio */
     border-bottom: 1px solid rgb(231, 231, 232);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 .grigio{
     color: rgb(178, 155, 159);
+}
+span{
+    text-decoration: underline;
+    color: var(--blu);
 }
