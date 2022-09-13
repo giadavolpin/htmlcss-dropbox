@@ -122,8 +122,8 @@ h3{
     width: 70%;
 }
 .dist{
-    padding-top: 25px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 #icona{
     /*  width: 150px;
@@ -131,10 +131,11 @@ h3{
      padding-top: 130px;
  }
 .col{
-    width: 200px;
-    height: 500px;
+    width: 350px;
+    height: 1000px;
     border: 1px solid rgb(231, 231, 232); 
-    margin: 20px;
+    margin: 50px;
+    padding: 30px;
     
 }
 .fatt{
@@ -145,7 +146,8 @@ h3{
 }
 .intestazionecol{
     border-bottom: 1px solid rgb(231, 231, 232);
-    margin-bottom: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -156,6 +158,6 @@ span{
     text-decoration: underline;
     color: var(--blu);
 }
-.abbonamenti{
-    
+#az{
+    color: var(--blu);
 }
