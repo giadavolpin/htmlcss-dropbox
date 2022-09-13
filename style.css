@@ -43,6 +43,10 @@
     display: flex;
     justify-content: flex-start;
 }
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
 .logo{
     padding: 15px;
     vertical-align: middle;
