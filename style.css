@@ -27,6 +27,8 @@
 .flexrow{
     display: flex;
     flex-direction: row;
+}
+.margin{
     margin: 5px;
 }
 .flexcenter{
@@ -125,7 +127,10 @@ h2{
      padding-top: 130px;
  }
 .col{
-
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
 }
 .fatt{
     margin-left: 40px;
