@@ -165,3 +165,6 @@ span{
 #az{
     color: var(--blu);
 }
+.w-100{
+    width: 100%;
+}
