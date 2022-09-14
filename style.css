@@ -214,30 +214,23 @@ span{
 .quadrato{
     height: 30vw;
     width: 30vw;
-    
 }
 .quadrato-center{
     width: calc(100% - 60vw);
-  
+}
+.w-50{
+    height: 50%;
+    width: 50%;
 }
 .designit{
-    width: 50%;
-    background-color: var(--verde);
-    height: 50%;
-    
+     background-color: var(--verde);  
 }
-.asu{
-    width: 50%;
-    background-color: var(--viola);
-    height: 50%;
+.asu{   
+    background-color: var(--viola); 
 }
 .florida{
-    width: 50%;
-    background-color: var(--florida);
-    height: 50%;
+    background-color: var(--florida);  
 }
 .topps{
-    width: 50%;
     background-color: var(--red);
-    height: 50%;
 }
