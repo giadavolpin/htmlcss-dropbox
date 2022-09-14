@@ -95,6 +95,13 @@ nav{
     text-align: center;
     margin-top: 20px;
 }
+.btnwhit{
+    background-color: var(--white);
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    text-align: center;
+    
 .color{
     color:rgb(120, 117, 128) ;
 }
@@ -255,4 +262,11 @@ span{
 }
 .clear{
     background-color: var(--giallo);
+}
+#viola{
+    color: rgb(95, 4, 47) ;
+    font-size: 40px;
+}
+.azienda{
+    background-color: var(--azzurro);
 }
