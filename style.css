@@ -214,13 +214,23 @@ span{
 .quadrato{
     height: 30vw;
     width: 30vw;
+    display: flex;
+    flex-flow: row wrap;
+    filter: invert(1);
+}
+#font{
+    font-size: 25px;
 }
 .quadrato-center{
     width: calc(100% - 60vw);
+    padding: 40px;
 }
 .w-50{
     height: 50%;
-    width: 50%;
+    width: 50%;  
+}
+.w-50 img{
+    width: 100%;
 }
 .designit{
      background-color: var(--verde);  
@@ -233,4 +243,16 @@ span{
 }
 .topps{
     background-color: var(--red);
+}
+.bici{
+    background-color: var(--bordo);
+}
+.hearst{
+    background-color: var(--azzurro);
+}
+.lonely{
+    background-color: var(--lonely) ;
+}
+.clear{
+    background-color: var(--giallo);
 }
