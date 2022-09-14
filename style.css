@@ -202,3 +202,42 @@ span{
 .cal{
     width: calc((100% - 20px) / 3);
 }
+.calc-quad{
+    width: calc(100% / 3);
+}
+.sottolineato{
+    text-decoration: underline;
+    color: var(--blu);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.quadrato{
+    height: 30vw;
+    width: 30vw;
+    
+}
+.quadrato-center{
+    width: calc(100% - 60vw);
+  
+}
+.designit{
+    width: 50%;
+    background-color: var(--verde);
+    height: 50%;
+    
+}
+.asu{
+    width: 50%;
+    background-color: var(--viola);
+    height: 50%;
+}
+.florida{
+    width: 50%;
+    background-color: var(--florida);
+    height: 50%;
+}
+.topps{
+    width: 50%;
+    background-color: var(--red);
+    height: 50%;
+}
