@@ -195,3 +195,6 @@ span{
 .separa{
     padding-top:60px; 
 }
+.cal{
+    width: calc(100% / 3);
+}
