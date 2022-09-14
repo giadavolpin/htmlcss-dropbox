@@ -131,6 +131,7 @@ h2{
 h3{
     font-size: 25px;
     margin-bottom: 10px;
+    margin-top: 5px;
 }
 .jumbo{
     height: 455px;
@@ -147,6 +148,9 @@ h3{
 .dist{
     padding-top: 20px;
     padding-bottom: 15px;
+}
+.left{
+    padding-left: 20px;
 }
 #icona{
     /*  width: 150px;
@@ -196,5 +200,5 @@ span{
     padding-top:60px; 
 }
 .cal{
-    width: calc(100% / 3);
+    width: calc((100% - 20px) / 3);
 }
